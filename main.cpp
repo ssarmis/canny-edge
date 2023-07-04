@@ -176,7 +176,7 @@ void clone(Image& source, Image& destination){
 int main(){
     Image source;
 
-    source.data = stbi_load("image3.jpg", &source.width, &source.height, NULL, 1);
+    source.data = stbi_load("image2.jpg", &source.width, &source.height, NULL, 1);
 
     Image destination = source;
     destination.data = new u8[destination.width * destination.height];
